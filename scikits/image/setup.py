@@ -13,6 +13,8 @@ def configuration(parent_package='', top_path=None):
     config.add_subpackage('transform')
     config.add_subpackage('data')
     config.add_subpackage('util')
+    config.add_subpackage('draw')
+    config.add_subpackage('feature')
     config.add_subpackage('color')
 
     def add_test_directories(arg, dirname, fnames):
