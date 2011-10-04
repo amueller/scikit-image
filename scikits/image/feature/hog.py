@@ -3,7 +3,7 @@ from scipy import sqrt, pi, arctan2, cos, sin
 from scipy.ndimage import uniform_filter
 
 # XXX Replace with integral after merge
-from ..transform import sat_sum
+#from ..transform import sat_sum
 
 def hog(image, orientations=9, pixels_per_cell=(8, 8),
         cells_per_block=(3, 3), visualise=False, normalise=False):
