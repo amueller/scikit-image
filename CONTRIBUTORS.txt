@@ -44,7 +44,8 @@
   Incorporating CellProfiler's Sobel edge detector, build and bug fixes.
 
 - Emmanuelle Guillart
-  Total variation noise filtering
+  Total variation noise filtering, integration of CellProfiler's
+  mathematical morphology tools.
 
 - Maël Primet
   Total variation noise filtering
@@ -63,6 +64,12 @@
 
 - Brian Holt
   Histograms of Oriented Gradients
+- The Scikit Learn team
+  From whom we borrowed the example generation tools.
 
 - David-Warde Farley, Sturla Molden
   Bresenheim line drawing, from snippets on numpy-discussion.
+  
+- Andreas Mueller
+  Example data set loader.
+

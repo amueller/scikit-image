@@ -23,11 +23,17 @@ sys.path.append(os.path.join(curpath, '..', 'ext'))
 
 # -- General configuration -----------------------------------------------------
 
+try:
+    import gen_rst
+except:
+    pass
+
+
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.pngmath', 'numpydoc',
               'sphinx.ext.autosummary', 'sphinx.ext.inheritance_diagram',
-              'plot_directive']
+              'plot_directive', 'gen_rst']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -39,11 +45,11 @@ source_suffix = '.txt'
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'contents'
+master_doc = 'index'
 
 # General information about the project.
 project = u'scikits.image'
-copyright = u'2009, SciPy Developers'
+copyright = u'2011, scikits-image team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
