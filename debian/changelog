@@ -1,4 +1,10 @@
-scikits-image (0.3.0-1) UNRELEASED; urgency=low
+scikits-image (0.3.1) natty; urgency=low
+
+  * Minor packaging stuff
+
+ -- andy <andy@marvin>  Sat, 08 Oct 2011 22:56:44 +0200
+
+scikits-image (0.3.0-3) natty; urgency=low
 
   * Initial release. (Closes: #639820)
 
