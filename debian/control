@@ -14,7 +14,7 @@ Package: python-scikits.image
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, python-numpy, python-scipy, python-scikits.image-lib (>= ${source:Version}), python-imaging | python-matplotlib
 Provides: ${python:Provides}
-Recommends: python-nose, python-matplotlib
+Recommends: python-nose
 Suggests: python-scikits.image-doc, python-opencv
 Description: Python modules for image processing
  scikits-image is a collection of image processing algorithms for
