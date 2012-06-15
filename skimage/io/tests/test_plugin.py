@@ -23,10 +23,12 @@ except OSError:
 
 def setup_module(self):
     self.backup_plugin_store = deepcopy(plugin.plugin_store)
-    plugin.use('test') # see ../_plugins/test_plugin.py
+    plugin.use('test')  # see ../_plugins/test_plugin.py
+
 
 def teardown_module(self):
     plugin.plugin_store = self.backup_plugin_store
+
 
 class TestPlugin:
     def test_read(self):
